@@ -68,7 +68,7 @@ n개의 데이터와 k(<=n)개의 중심점(centroid)이 주어졌을때 각 그
 2. **밀도 기반(Density-based) : DBSCAN**
 DBSCAN는 밀도기반(Density-based) 클러스터링 방법으로 “유사한 데이터는 서로 근접하게 분포할 것이다”는 가정을 기반으로 한다. K-means와 달리 처음에 그룹의 수(k)를 설정하지 않고 자동적으로 최적의 그룹 수를 찾아나간다.
     
-    ![image02.png](1%E1%84%8C%E1%85%AE%E1%84%8E%E1%85%A1%20%E1%84%89%E1%85%B3%E1%84%90%E1%85%A5%E1%84%83%E1%85%B5%20-%20%E1%84%80%E1%85%AA%E1%86%AB%E1%84%85%E1%85%A7%E1%86%AB%20%E1%84%86%E1%85%A9%E1%84%83%E1%85%A6%E1%86%AF%20%E1%84%86%E1%85%B5%E1%86%BE%20%E1%84%8B%E1%85%A1%E1%86%AF%E1%84%80%E1%85%A9%E1%84%85%E1%85%B5%E1%84%8C%E1%85%B3%E1%86%B7%20%E1%84%90%E1%85%A1%E1%86%B7%E1%84%89%E1%85%A2%E1%86%A8%20fc753db3b69c4df58a14cdac5b3fb85c/image02.png)
+    ![image02.png](https://github.com/yebinchoi67/DACON_competition/blob/20c4787fd5f02b85a802b23ab430d4c33ae77cdb/Credit_card_fraud_detection/images/image02.png)
     
     먼저 하나의 점(파란색)을 중심으로 반경(eps) 내에 최소 점이 4개(minPts=4)이상 있으면, 하나의 군집으로 판단하며 해당 점(파란색)은 Core가 된다.
     
