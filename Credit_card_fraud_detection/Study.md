@@ -1,5 +1,5 @@
-# 1주차 스터디 - 관련 모델 및 알고리즘 탐색
-
+1주차 스터디 - 관련 모델 및 알고리즘 탐색
+===
 ---
 
 # **<주제>**
@@ -163,8 +163,9 @@ https://mangastorytelling.tistory.com/8471
 회귀: 출력 변수가 실수 또는 연속 값일 때 사용. 둘 이상의 변수 사이의 관계를 가짐. (ex. 경력에 따른 급여, 키에 따른 체중, 한 변수의 변경이 다른 변수의 변경과 연관 됨.)
 
 
-# 2주차 스터디 - 파라미터 조절 실험
-
+2주차 스터디 - 파라미터 조절 실험
+===
+---
 [https://dacon.io/codeshare/5694?dtype=recent](https://dacon.io/codeshare/5694?dtype=recent)
 
 EE = EllipticEnvelope(contamination=val_contamination, random_state=42)
@@ -197,8 +198,9 @@ IsolationForest 150
 정확도: 0.9987, 정밀도: 0.7028, 재현율: 0.7163, F1:0.7094
 
 
-# 3주차 스터디 - 모델 및 파라미터 실험
-
+3주차 스터디 - 모델 및 파라미터 실험
+===
+---
 **IsolationForest**
 
 오차 행렬
