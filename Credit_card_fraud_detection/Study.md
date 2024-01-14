@@ -63,7 +63,7 @@ n개의 데이터와 k(<=n)개의 중심점(centroid)이 주어졌을때 각 그
     
     결국 아래와 같은 목적함수를 최소화하는 것을 목표로 하는 알고리즘인 것이다
     
-   (![Alt text](/images/image01.png))
+   ![Alt text](/images/image01.png)
     
 2. **밀도 기반(Density-based) : DBSCAN**
 DBSCAN는 밀도기반(Density-based) 클러스터링 방법으로 “유사한 데이터는 서로 근접하게 분포할 것이다”는 가정을 기반으로 한다. K-means와 달리 처음에 그룹의 수(k)를 설정하지 않고 자동적으로 최적의 그룹 수를 찾아나간다.
