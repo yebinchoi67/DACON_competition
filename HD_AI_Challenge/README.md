@@ -64,7 +64,7 @@ https://dacon.io/competitions/official/236158/overview/description
 
 ![Untitled](https://github.com/yebinchoi67/DACON_competition/blob/ea5924c1bb5e768564e4d7c5b571257eba8971d5/HD_AI_Challenge/images/Untitled.png)
 
-![Untitled](https://github.com/yebinchoi67/DACON_competition/blob/ea5924c1bb5e768564e4d7c5b571257eba8971d5/HD_AI_Challenge/images/Untitled%201.png)
+![Untitled](https://github.com/yebinchoi67/DACON_competition/blob/ea5924c1bb5e768564e4d7c5b571257eba8971d5/HD_AI_Challenge/images/Untitled%201.png){: width="50%" height="50%"}
 
 ### 데이터 전처리 (임시)
 
