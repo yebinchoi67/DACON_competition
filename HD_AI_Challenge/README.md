@@ -63,8 +63,7 @@ https://dacon.io/competitions/official/236158/overview/description
 ### 데이터 분포
 
 ![Untitled](https://github.com/yebinchoi67/DACON_competition/blob/ea5924c1bb5e768564e4d7c5b571257eba8971d5/HD_AI_Challenge/images/Untitled.png)
-
-![Untitled](https://github.com/yebinchoi67/DACON_competition/blob/ea5924c1bb5e768564e4d7c5b571257eba8971d5/HD_AI_Challenge/images/Untitled%201.png){: width="50%" height="50%"}
+<img src="images/Untitled%201.png" width="70%" height="70%"/>
 
 ### 데이터 전처리 (임시)
 
@@ -82,19 +81,19 @@ https://dacon.io/competitions/official/236158/overview/description
 
 1. **LGBM**
     
-    ![Untitled](https://github.com/yebinchoi67/DACON_competition/blob/ea5924c1bb5e768564e4d7c5b571257eba8971d5/HD_AI_Challenge/images/Untitled%202.png)
+   <img src="images/Untitled%202.png" width="60%" height="60%"/>
     
-2. **Xgboost**
+3. **Xgboost**
     
-    ![Untitled](https://github.com/yebinchoi67/DACON_competition/blob/ea5924c1bb5e768564e4d7c5b571257eba8971d5/HD_AI_Challenge/images/Untitled%203.png)
+   <img src="images/Untitled%203.png" width="60%" height="60%"/>
     
-3. **RandomForest**
+5. **RandomForest**
     
-    ![Untitled](https://github.com/yebinchoi67/DACON_competition/blob/ea5924c1bb5e768564e4d7c5b571257eba8971d5/HD_AI_Challenge/images/Untitled%204.png)
+   <img src="images/Untitled%204.png" width="60%" height="60%"/>
     
-4. **CatBoost**
+7. **CatBoost**
     
-    ![Untitled](https://github.com/yebinchoi67/DACON_competition/blob/ea5924c1bb5e768564e4d7c5b571257eba8971d5/HD_AI_Challenge/images/Untitled%205.png)
+   <img src="images/Untitled%205.png" width="60%" height="60%"/>
     
 
 ### 피처 제거, 결측치 보간 방법 실험
@@ -135,23 +134,23 @@ https://dacon.io/competitions/official/236158/overview/description
 
 1. **수치형 (DIST, DEADWEIGHT, GT, LENGTH, PORT_SIZE, BUILTB)**
     
-    ![Untitled](https://github.com/yebinchoi67/DACON_competition/blob/ea5924c1bb5e768564e4d7c5b571257eba8971d5/HD_AI_Challenge/images/Untitled%206.png)
+   <img src="images/Untitled%206.png" width="70%" height="70%"/>
     
-2. **범주형 (ARI_CO, ARI_PO, SHIP_TYPE_CATEGORY, FLAG, SHIPMANAGER)**
+3. **범주형 (ARI_CO, ARI_PO, SHIP_TYPE_CATEGORY, FLAG, SHIPMANAGER)**
     
-    ![Untitled](https://github.com/yebinchoi67/DACON_competition/blob/ea5924c1bb5e768564e4d7c5b571257eba8971d5/HD_AI_Challenge/images/Untitled%207.png)
+   <img src="images/Untitled%207.png" width="100%" height="100%"/>
     
-3. **시간 데이터 (ATA_LT, year, month, day, hour, miniute, weekday)**
+5. **시간 데이터 (ATA_LT, year, month, day, hour, miniute, weekday)**
     
-    ![Untitled](https://github.com/yebinchoi67/DACON_competition/blob/ea5924c1bb5e768564e4d7c5b571257eba8971d5/HD_AI_Challenge/images/Untitled%208.png)
+   <img src="images/Untitled%208.png" width="90%" height="90%"/>
     
-    ![Untitled](https://github.com/yebinchoi67/DACON_competition/blob/ea5924c1bb5e768564e4d7c5b571257eba8971d5/HD_AI_Challenge/images/Untitled%209.png)
+   <img src="images/Untitled%209.png" width="40%" height="40%"/>
     
-    ![Untitled](https://github.com/yebinchoi67/DACON_competition/blob/ea5924c1bb5e768564e4d7c5b571257eba8971d5/HD_AI_Challenge/images/Untitled%2010.png)
+   <img src="images/Untitled%2010.png" width="40%" height="40%"/>
     
-4. **상관계수 히트맵**
+7. **상관계수 히트맵**
     
-    ![Untitled](https://github.com/yebinchoi67/DACON_competition/blob/ea5924c1bb5e768564e4d7c5b571257eba8971d5/HD_AI_Challenge/images/Untitled%2011.png)
+   <img src="images/Untitled%2011.png" width="80%" height="80%"/>
     
 
 # 최종 문제 해결 방법
