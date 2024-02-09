@@ -32,7 +32,7 @@ https://dacon.io/competitions/official/236214/overview/description
         - 대출 금액이 클수록 갚을 원금이랑 이자는 당연히 높아질테니 비율로 피처 변환하기로 결정.
     
 
-<br/>
+    <br/>
 # 데이터 전처리
 
 ### 1. 이상치
@@ -41,7 +41,7 @@ https://dacon.io/competitions/official/236214/overview/description
 
 - 부채_대비_소득_비율에서 1개 drop
 
-<br/>
+    <br/>
 ### 2. 피처 엔지니어링
 
 - **피처 생성**
@@ -52,7 +52,7 @@ https://dacon.io/competitions/official/236214/overview/description
     (*연간소득 스케일링 진행 후 피처 생성)*
 - **drop:** 피처 생성 후 더이상 필요 없을 것 같은 피처 drop ('연체계좌수', '총계좌수', '총상환이자', '총상환원금')
 
-<br/>
+    <br/>
 ### 3. 스케일링
 
 - 연속형 데이터들 그래프로 살펴보니 분포가 너무 한쪽으로 치우친 피처들이 존재해서 스케일링 결정
@@ -78,7 +78,9 @@ https://dacon.io/competitions/official/236214/overview/description
 
 **box-cox 변환**
 
+
 <br/>
+    
 ### 4. 피처 처리
 
 1. **근로기간**
@@ -91,19 +93,19 @@ https://dacon.io/competitions/official/236214/overview/description
 3. **대출 목적**
     - 부채통합(55150), 신용카드(24500), 기타(15837), 주택(807)의 4범주로 나눔.
 
-<br/>
+    <br/>
 ### **5. 라벨 인코딩**
 
 - 대출기간, 주택소유상태, 대출목적
 - 대출등급(타겟)
 
-<br/>
+    <br/>
 # CleanLab
 
 - dataset의 문제를 자동으로 감지해주는 오픈소스
 - label issue (198개), near duplicate issue(194개) drop 해주고 학습 진행
 
-<br/>
+    <br/>
 # 학습 및 예측
 
 - **K-fold를 이용한 voting 앙상블 모델**
