@@ -8,7 +8,7 @@ https://dacon.io/competitions/official/236214/overview/description
 ---
 ---
 ---
-# [고객 대출등급 분류 해커톤] - 문제해결과정
+# 문제해결과정
 
 # 문제 정의
 
@@ -23,7 +23,8 @@ https://dacon.io/competitions/official/236214/overview/description
     - 피처 별로 boxplot, countplot kdeplot 등 간단한 plot 시각화
     - 상관관계
         
-        ![Untitled](%5B%E1%84%80%E1%85%A9%E1%84%80%E1%85%A2%E1%86%A8%20%E1%84%83%E1%85%A2%E1%84%8E%E1%85%AE%E1%86%AF%E1%84%83%E1%85%B3%E1%86%BC%E1%84%80%E1%85%B3%E1%86%B8%20%E1%84%87%E1%85%AE%E1%86%AB%E1%84%85%E1%85%B2%20%E1%84%92%E1%85%A2%E1%84%8F%E1%85%A5%E1%84%90%E1%85%A9%E1%86%AB%5D%20-%20%E1%84%86%E1%85%AE%E1%86%AB%E1%84%8C%E1%85%A6%E1%84%92%E1%85%A2%E1%84%80%E1%85%A7%E1%86%AF%E1%84%80%E1%85%AA%E1%84%8C%E1%85%A5%207072d798728846fab71e42d9d29590da/Untitled.png)
+        <img src="https://github.com/yebinchoi67/DACON_competition/blob/main/%EA%B3%A0%EA%B0%9D_%EB%8C%80%EC%B6%9C%EB%93%B1%EA%B8%89_%EB%B6%84%EB%A5%98_%ED%95%B4%EC%BB%A4%ED%86%A4/images/Untitled.png" width="70%" height="70%"/>
+
         
     - **대출금액, 총상환원금, 총상환이자, 연간소득의 상관성이 높음.**
         - 대출 금액이 클수록 갚을 원금이랑 이자는 당연히 높아질테니 비율로 피처 변환하기로 결정.
@@ -33,7 +34,7 @@ https://dacon.io/competitions/official/236214/overview/description
 
 ### 1. 이상치
 
-![Untitled](%5B%E1%84%80%E1%85%A9%E1%84%80%E1%85%A2%E1%86%A8%20%E1%84%83%E1%85%A2%E1%84%8E%E1%85%AE%E1%86%AF%E1%84%83%E1%85%B3%E1%86%BC%E1%84%80%E1%85%B3%E1%86%B8%20%E1%84%87%E1%85%AE%E1%86%AB%E1%84%85%E1%85%B2%20%E1%84%92%E1%85%A2%E1%84%8F%E1%85%A5%E1%84%90%E1%85%A9%E1%86%AB%5D%20-%20%E1%84%86%E1%85%AE%E1%86%AB%E1%84%8C%E1%85%A6%E1%84%92%E1%85%A2%E1%84%80%E1%85%A7%E1%86%AF%E1%84%80%E1%85%AA%E1%84%8C%E1%85%A5%207072d798728846fab71e42d9d29590da/Untitled%201.png)
+<img src="https://github.com/yebinchoi67/DACON_competition/blob/main/%EA%B3%A0%EA%B0%9D_%EB%8C%80%EC%B6%9C%EB%93%B1%EA%B8%89_%EB%B6%84%EB%A5%98_%ED%95%B4%EC%BB%A4%ED%86%A4/images/Untitled%201.png" width="50%" height="50%"/>
 
 - 부채_대비_소득_비율에서 1개 drop
 
@@ -53,7 +54,7 @@ https://dacon.io/competitions/official/236214/overview/description
 (전체적으로 skewness가 큰 데이터셋)
 - '연간소득', '부채_대비_소득_비율', '총상환원금비율', '총상환이자비율', '총연체금액’
 
-![Untitled](%5B%E1%84%80%E1%85%A9%E1%84%80%E1%85%A2%E1%86%A8%20%E1%84%83%E1%85%A2%E1%84%8E%E1%85%AE%E1%86%AF%E1%84%83%E1%85%B3%E1%86%BC%E1%84%80%E1%85%B3%E1%86%B8%20%E1%84%87%E1%85%AE%E1%86%AB%E1%84%85%E1%85%B2%20%E1%84%92%E1%85%A2%E1%84%8F%E1%85%A5%E1%84%90%E1%85%A9%E1%86%AB%5D%20-%20%E1%84%86%E1%85%AE%E1%86%AB%E1%84%8C%E1%85%A6%E1%84%92%E1%85%A2%E1%84%80%E1%85%A7%E1%86%AF%E1%84%80%E1%85%AA%E1%84%8C%E1%85%A5%207072d798728846fab71e42d9d29590da/Untitled%202.png)
+<img src="https://github.com/yebinchoi67/DACON_competition/blob/main/%EA%B3%A0%EA%B0%9D_%EB%8C%80%EC%B6%9C%EB%93%B1%EA%B8%89_%EB%B6%84%EB%A5%98_%ED%95%B4%EC%BB%A4%ED%86%A4/images/Untitled%202.png" width="60%" height="60%"/>
 
 - **<<고려 스케일러 목록>>**
     1. StandardScaler
@@ -64,12 +65,11 @@ https://dacon.io/competitions/official/236214/overview/description
     
     **➡️ log 변환 사용**
     
-
-![**log 변환**](%5B%E1%84%80%E1%85%A9%E1%84%80%E1%85%A2%E1%86%A8%20%E1%84%83%E1%85%A2%E1%84%8E%E1%85%AE%E1%86%AF%E1%84%83%E1%85%B3%E1%86%BC%E1%84%80%E1%85%B3%E1%86%B8%20%E1%84%87%E1%85%AE%E1%86%AB%E1%84%85%E1%85%B2%20%E1%84%92%E1%85%A2%E1%84%8F%E1%85%A5%E1%84%90%E1%85%A9%E1%86%AB%5D%20-%20%E1%84%86%E1%85%AE%E1%86%AB%E1%84%8C%E1%85%A6%E1%84%92%E1%85%A2%E1%84%80%E1%85%A7%E1%86%AF%E1%84%80%E1%85%AA%E1%84%8C%E1%85%A5%207072d798728846fab71e42d9d29590da/Untitled%203.png)
+<img src="https://github.com/yebinchoi67/DACON_competition/blob/main/%EA%B3%A0%EA%B0%9D_%EB%8C%80%EC%B6%9C%EB%93%B1%EA%B8%89_%EB%B6%84%EB%A5%98_%ED%95%B4%EC%BB%A4%ED%86%A4/images/Untitled%203.png" width="40%" height="40%"/>
 
 **log 변환**
 
-![**box-cox 변환**](%5B%E1%84%80%E1%85%A9%E1%84%80%E1%85%A2%E1%86%A8%20%E1%84%83%E1%85%A2%E1%84%8E%E1%85%AE%E1%86%AF%E1%84%83%E1%85%B3%E1%86%BC%E1%84%80%E1%85%B3%E1%86%B8%20%E1%84%87%E1%85%AE%E1%86%AB%E1%84%85%E1%85%B2%20%E1%84%92%E1%85%A2%E1%84%8F%E1%85%A5%E1%84%90%E1%85%A9%E1%86%AB%5D%20-%20%E1%84%86%E1%85%AE%E1%86%AB%E1%84%8C%E1%85%A6%E1%84%92%E1%85%A2%E1%84%80%E1%85%A7%E1%86%AF%E1%84%80%E1%85%AA%E1%84%8C%E1%85%A5%207072d798728846fab71e42d9d29590da/Untitled%204.png)
+<img src="https://github.com/yebinchoi67/DACON_competition/blob/main/%EA%B3%A0%EA%B0%9D_%EB%8C%80%EC%B6%9C%EB%93%B1%EA%B8%89_%EB%B6%84%EB%A5%98_%ED%95%B4%EC%BB%A4%ED%86%A4/images/Untitled%204.png" width="40%" height="40%"/>
 
 **box-cox 변환**
 
