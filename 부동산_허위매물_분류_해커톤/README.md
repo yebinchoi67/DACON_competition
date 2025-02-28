@@ -1,4 +1,4 @@
-# 부동산 허위매 분류 해커톤
+# 부동산 허위매물 분류 해커톤
 
 https://dacon.io/competitions/official/236439/overview/description
 
